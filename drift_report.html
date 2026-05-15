@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html><head><title>Data Drift Report</title>
+<style>body{font-family:Arial;margin:40px;} table{border-collapse:collapse;width:100%;}
+th,td{border:1px solid #ddd;padding:8px;text-align:left;} th{background:#4CAF50;color:white;}</style>
+</head><body>
+<h1>Data Drift Report - Heart Disease Prediction</h1>
+<p>Comparación entre datos de entrenamiento y test para detectar deriva de datos.</p>
+<table><tr><th>Feature</th><th>Train Mean</th><th>Test Mean</th><th>Drift Score</th><th>Status</th></tr><tr><td>Age</td><td>53.779</td><td>53.424</td><td>0.041</td><td>✅ OK</td></tr><tr><td>RestingBP</td><td>131.959</td><td>129.207</td><td>0.151</td><td>✅ OK</td></tr><tr><td>Cholesterol</td><td>197.510</td><td>193.739</td><td>0.036</td><td>✅ OK</td></tr><tr><td>FastingBS</td><td>0.232</td><td>0.217</td><td>0.034</td><td>✅ OK</td></tr><tr><td>MaxHR</td><td>134.386</td><td>133.723</td><td>0.026</td><td>✅ OK</td></tr><tr><td>Oldpeak</td><td>0.768</td><td>0.758</td><td>0.013</td><td>✅ OK</td></tr><tr><td>Sex_M</td><td>0.805</td><td>0.777</td><td>0.071</td><td>✅ OK</td></tr><tr><td>ChestPainType_ATA</td><td>0.181</td><td>0.212</td><td>0.080</td><td>✅ OK</td></tr><tr><td>ChestPainType_NAP</td><td>0.223</td><td>0.185</td><td>0.093</td><td>✅ OK</td></tr><tr><td>ChestPainType_TA</td><td>0.061</td><td>0.054</td><td>0.029</td><td>✅ OK</td></tr><tr><td>RestingECG_Normal</td><td>0.614</td><td>0.630</td><td>0.033</td><td>✅ OK</td></tr><tr><td>RestingECG_ST</td><td>0.157</td><td>0.174</td><td>0.047</td><td>✅ OK</td></tr><tr><td>ExerciseAngina_Y</td><td>0.371</td><td>0.359</td><td>0.025</td><td>✅ OK</td></tr><tr><td>ST_Slope_Flat</td><td>0.518</td><td>0.516</td><td>0.003</td><td>✅ OK</td></tr><tr><td>ST_Slope_Up</td><td>0.376</td><td>0.402</td><td>0.054</td><td>✅ OK</td></tr></table>
+<p><em>Generado con análisis estadístico comparativo (train vs test).</em></p>
+</body></html>
