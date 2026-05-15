@@ -25,7 +25,8 @@ class Input(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "Heart Disease Prediction API - POST /predict con features"}
+    msg = "Heart Disease Prediction API - POST /predict"
+    return {"message": msg}
 
 
 @app.post("/predict")
