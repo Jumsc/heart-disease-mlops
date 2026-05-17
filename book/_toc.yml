@@ -1,0 +1,6 @@
+format: jb-book
+root: intro
+chapters:
+  - file: 1_model_leakage_demo
+  - file: 2_model_pipeline_cv
+  - file: mlops

@@ -1,0 +1,20 @@
+title: "Heart Disease MLOps"
+author: "Proyecto Integrador - Machine Learning"
+logo: ""
+
+execute:
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/TU_USUARIO/heart-disease-mlops
+  branch: main
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+  home_page_in_navbar: true
+
+sphinx:
+  config:
+    html_theme_options:
+      navigation_depth: 3
